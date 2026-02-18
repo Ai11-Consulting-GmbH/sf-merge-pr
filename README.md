@@ -33,10 +33,10 @@ Clone the repo into your skills directory:
 
 ```bash
 # For OpenCode
-git clone https://github.com/Ai11-Consulting-GmbH/-sf-merge-pr.git ~/.config/opencode/skills/sfdc-merge-pr
+git clone https://github.com/Ai11-Consulting-GmbH/sf-merge-pr.git ~/.config/opencode/skills/sfdc-merge-pr
 
 # For Claude Code
-git clone https://github.com/Ai11-Consulting-GmbH/-sf-merge-pr.git ~/.claude/skills/sfdc-merge-pr
+git clone https://github.com/Ai11-Consulting-GmbH/sf-merge-pr.git ~/.claude/skills/sfdc-merge-pr
 ```
 
 The skill will be auto-discovered on next session. Invoke it with `/deploy-pr <PR_NUMBER> <TARGET_ORG>`.
@@ -44,7 +44,7 @@ The skill will be auto-discovered on next session. Invoke it with `/deploy-pr <P
 ### Standalone (no AI agent)
 
 ```bash
-git clone https://github.com/Ai11-Consulting-GmbH/-sf-merge-pr.git
+git clone https://github.com/Ai11-Consulting-GmbH/sf-merge-pr.git
 chmod +x SFDCMergePR/merge-pr.sh
 ```
 
